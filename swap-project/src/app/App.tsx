@@ -1,14 +1,12 @@
-import './App.css'
+import HomePage from "./components/home/HomePage.tsx";
 
 function App() {
 
-  return (
-    <>
-     <h1>
-         Welcome to Swap project!
-     </h1>
-    </>
-  )
+    return (
+        <>
+         <HomePage />
+        </>
+    )
 }
 
 export default App
